@@ -3,6 +3,11 @@
     #bannerImage{
         height: 600px;
         object-fit: cover;
+    }    
+    
+    #aboutBannerImage{
+        height: 40vh;
+        object-fit: cover;
     }
 
     .line2::before{
@@ -11,6 +16,20 @@
 
     .list-inline, #copyright-text{
         font-size: 14px;
+    }
+
+        
+    #who-are-we #first-image{
+        border-radius: 0 0 0 0;
+        display: none;
+    }  
+
+    #who-are-we #second-image{
+        display: none;
+    }
+
+    #who-are-we #third-div{
+        border-radius: 0 0 0 0;
     }
  }
 

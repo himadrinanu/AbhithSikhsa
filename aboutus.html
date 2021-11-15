@@ -13,6 +13,7 @@
         integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
 
     <title>About Us</title>
 </head>
@@ -31,7 +32,7 @@
                         <i class="fab fa-instagram text-light"></i>
                     </div>
                 </div>
-                <div class="col-md-6 d-flex justify-content-end">
+                <div class="col-md-6 d-flex justify-content-md-end">
                     <div class="dropdown d-flex me-5">
                         <i class="far fa-user text-light mt-1 me-2"></i>
                         <p type="text" class="dropdown-toggle text-light mb-0" data-bs-toggle="dropdown"
@@ -58,7 +59,7 @@
             <!-- nav -->
             <nav class="navbar navbar-expand-lg navbar-light">
                 <div class="container-fluid">
-                    <a class="navbar-brand" href="#"><img src="assets/img/home/logo.png" alt=""></a>
+                    <a class="navbar-brand" href="#"><img src="assets/img/home/logo.png" width="200" alt=""></a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                         data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="Toggle navigation">
@@ -91,14 +92,14 @@
             </nav>
             <!-- banner -->
             <div class="heading-block">
-                <img src="assets/img/about/banner.png" alt="" width="100%">
+                <img id="aboutBannerImage" src="assets/img/about/banner.png" alt="" width="100%">
                 <div class="about-text col-md-12 text-center">
                     <p class="fw-bold fs-1 mb-0">Transform your life through</p>
                     <p class="fw-bold fs-1 text-color">Abhith Siksha</p>
                 </div>
             </div>
             <!-- about us -->
-            <div class="p-5 col-md-12" id="bgImg2">
+            <div class="p-md-5 mt-5 col-md-12" id="bgImg2">
                 <div class="row">
                     <div class="col-md-8">
                         <P class="line"><span class="ps-4 text-color">ABOUT US</span></P>
@@ -109,13 +110,13 @@
                             exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
                             dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
                         <div class="row mt-5">
-                            <div class="col-md-6">
+                            <div class="col-md-6 text-center text-md-start">
                                 <i class="fas fa-users fs-1"></i>
                                 <p class="fw-bold fs-5">Best Learning Communities</p>
                                 <p>Lorem ipsum dolor sit amet adipisicing
                                     elit, sed do eiusmod tempor.</p>
                             </div>
-                            <div class="col-md-6">
+                            <div class="col-md-6 text-center text-md-start">
                                 <i class="fas fa-users fs-1"></i>
                                 <p class="fw-bold fs-5">Learn Courses Online</p>
                                 <p>Lorem ipsum dolor sit amet adipisicing
@@ -123,23 +124,21 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-4 pt-5">
+                    <div class="col-md-4 pt-5 text-center">
                         <img src="assets/img/about/image.png" alt="">
                     </div>
                 </div>
             </div>
             <!-- Who We Are -->
-            <div class="my-5">
-                <div class="d-flex">
+            <div class="my-5" id="who-are-we">
+                <div class="d-md-flex">
                     <div class="col-md-3">
-                        <img src="assets/img/about/image1.png" alt="" height="458" width="100%"
-                            style="object-fit: cover; border-radius: 12px 0 0 12px;">
+                        <img id="first-image" src="assets/img/about/image1.png" alt="" height="458" width="100%">
                     </div>
                     <div class="col-md-3">
-                        <img src="assets/img/about/image2.png" alt="" height="458" width="100%"
-                            style="object-fit: cover;">
+                        <img id="second-image" src="assets/img/about/image2.png" alt="" height="458" width="100%">
                     </div>
-                    <div class="col-md-6 main-bg p-5" style="border-radius: 0 12px 12px 0;">
+                    <div class="col-md-6 main-bg p-5" id="third-div">
                         <p class="line mb-0"><span class="ps-4">Who We Are</span></p>
                         <p class="fw-bold fs-1">A great place to grow</p>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
@@ -165,7 +164,7 @@
                 </div>
             </div>
             <!-- Mission -->
-            <div class="d-flex">
+            <div class="d-md-flex">
                 <div class="col-md-6 pe-4">
                     <div>
                         <img src="assets/img/about/mission.png" alt="">
@@ -180,7 +179,7 @@
                             incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</p>
                     </div>
                 </div>
-                <div class="col-md-6 border-start ps-4">
+                <div class="col-md-6 border-md-start ps-md-4">
                     <img src="assets/img/about/vision.png" alt="">
                     <p class="fw-bold fs-1">Vision</p>
                     <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem doloremque
@@ -195,7 +194,7 @@
             </div>
              <!-- Footer -->
              <div class="mt-5 d-flex justify-content-between">
-                <img src="assets/img/home/logo.png" alt="">
+                <img src="assets/img/home/logo.png" width="150" alt="">
                 <div>
                     <i class="fab fa-facebook-f p-2 fs-5"></i>
                     <i class="fab fa-linkedin-in p-2 fs-5"></i>
@@ -229,15 +228,25 @@
                     </div>
                     <div class="col-md-4">
                         <div class="d-flex justify-content-between">
-                            <img src="assets/img/gallery/image1.jpg" alt="" width="100" height="100">
-                            <img src="assets/img/gallery/image2.jpg" alt="" width="100" height="100">
-                            <img src="assets/img/gallery/image3.jpg" alt="" width="100" height="100">
-                            <img src="assets/img/gallery/image4.jpg" alt="" width="100" height="100">
+                            <div class="row g-0">
+                                <div class="col-3">
+                                    <img src="assets/img/gallery/image1.jpg" alt="" width="100%" height="100">
+                                </div>
+                                <div class="col-3">
+                                    <img src="assets/img/gallery/image2.jpg" alt="" width="100%" height="100">
+                                </div>
+                                <div class="col-3">
+                                    <img src="assets/img/gallery/image3.jpg" alt="" width="100%" height="100">
+                                </div>
+                                <div class="col-3">
+                                    <img src="assets/img/gallery/image4.jpg" alt="" width="100%" height="100">
+                                </div>
+                            </div>  
                         </div>
                     </div>
                     <hr>
                     <div>
-                        <div class="d-flex justify-content-between">
+                        <div class="d-md-flex justify-content-between">
                             <ul class="list-inline">
                                 <li class="list-inline-item">FAQ</li>
                                 <li class="list-inline-item"><i class="fas fa-circle"></i></li>
@@ -246,7 +255,7 @@
                                 <li class="list-inline-item">Terms and Conditions.</li>
                             </ul>
                             <div>
-                                <p>© 2021 Abhith Sikhsha, All Rights Reserved</p>
+                                <p id="copyright-text">© 2021 Abhith Sikhsha, All Rights Reserved</p>
                             </div>
                         </div>
                     </div>

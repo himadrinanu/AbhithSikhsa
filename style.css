@@ -106,3 +106,16 @@ html{
     width: 100%;
     background-repeat: no-repeat;
 }
+
+#who-are-we #first-image{
+    object-fit: cover; 
+    border-radius: 12px 0 0 12px;
+}
+
+#who-are-we #second-image{
+    object-fit: cover;
+}
+
+#who-are-we #third-div{
+    border-radius: 0 12px 12px 0;
+}
