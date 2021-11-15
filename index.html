@@ -14,6 +14,7 @@
         integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
 
     <title>HomePage</title>
 </head>
@@ -33,7 +34,7 @@
                         <i class="fab fa-instagram text-light"></i>
                     </div>
                 </div>
-                <div class="col-md-6 d-flex justify-content-end">
+                <div class="col-md-6 d-flex justify-content-md-end">
                     <div class="dropdown d-flex me-5">
                         <i class="far fa-user text-light mt-1 me-2"></i>
                         <p type="text" class="dropdown-toggle text-light mb-0" data-bs-toggle="dropdown"
@@ -55,404 +56,413 @@
         </div>
     </div>
 
-    <div>
-        <div class="container">
-            <!-- nav -->
-            <nav class="navbar navbar-expand-lg navbar-light">
-                <div class="container-fluid">
-                    <a class="navbar-brand" href="#"><img src="assets/img/home/logo.png" alt=""></a>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav ms-auto mb-5 mb-lg-0">
-                            <li class="nav-item">
-                                <a href="index.html" class="nav-link" aria-current="page">Home</a>
-                            </li>
-                            <li class="nav-item">
-                                <a href="aboutus.html" class="nav-link">About Us</a>
-                            </li>
-                            <li class="nav-item">
-                                <a href="#" class="nav-link ">Courses</a>
-                            </li>
-                            <li class="nav-item">
-                                <a href="#" class="nav-link ">Gallery</a>
-                            </li>
-                            <li class="nav-item">
-                                <a href="#" class="nav-link ">Blogs</a>
-                            </li>
-                            <li class="nav-item">
-                                <a href="#" class="nav-link ">Knowledge Forum</a>
-                            </li>
-                            <button type="button" class="btn btn-outline-secondary">Contact Us</button>
-                        </ul>
-                    </div>
-                </div>
-            </nav>
-            <!-- banner -->
-            <div class="heading-block">
-                <img src="assets/img/home/banner1.png" alt="" width="100%">
-                <div class="heading-text col-md-7">
-                    <p class="fw-bold fs-1">Find the Best Courses &
-                        Upgrade Your Skills.</p>
 
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                        tempor incidicommodo viverra maecenas accumsan lacus vel facilisis.</p>
-                    <button type="button" class="btn btn-outline-dark mt-3">View More</button>
+    <div class="container">
+        <!-- nav -->
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#"><img src="assets/img/home/logo.png" alt="" width="200"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-5 mb-lg-0">
+                        <li class="nav-item">
+                            <a href="index.html" class="nav-link" aria-current="page">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="aboutus.html" class="nav-link">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link ">Courses</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link ">Gallery</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link ">Blogs</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link ">Knowledge Forum</a>
+                        </li>
+                        <button type="button" class="btn btn-outline-secondary">Contact Us</button>
+                    </ul>
                 </div>
             </div>
+        </nav>
+        <!-- banner -->
+        <div class="heading-block">
+            <img id="bannerImage" src="assets/img/home/banner1.png" alt="" width="100%">
+            <div class="heading-text col-md-7">
+                <p class="fw-bold fs-1">Find the Best Courses &
+                    Upgrade Your Skills.</p>
 
-            <!-- about us -->
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                    tempor incidicommodo viverra maecenas accumsan lacus vel facilisis.</p>
+                <button type="button" class="btn btn-outline-dark mt-3">View More</button>
+            </div>
+        </div>
 
-            <div class="p-5 col-md-12" id="about">
+        <!-- about us -->
+
+        <div class="p-md-5 mt-5 col-md-12" id="about">
+            <div class="row">
+                <div class="col-md-8">
+                    <P class="line"><span class="ps-4 text-color">ABOUT US</span></P>
+                    <p class="fw-bold fs-1">Offering The Best In Education
+                        To The World.</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                        exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
+                        dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                    <div class="row mt-5">
+                        <div class="col-md-6 mb-3">
+                            <i class="fas fa-users fs-1"></i>
+                            <p class="fw-bold fs-5">Best Learning Communities</p>
+                            <p>Lorem ipsum dolor sit amet adipisicing
+                                elit, sed do eiusmod tempor.</p>
+                            <button type="button" class="btn btn-outline-dark mt-3">View More</button>
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <i class="fas fa-users fs-1"></i>
+                            <p class="fw-bold fs-5">Learn Courses Online</p>
+                            <p>Lorem ipsum dolor sit amet adipisicing
+                                elit, sed do eiusmod tempor.</p>
+                            <button type="button" class="btn btn-outline-dark mt-3">View More</button>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-md-4 pt-5">
+                    <div class="shadow br-bottom">
+                        <div class="main-bg br-top">
+                            <p class="fw-bold fs-2 text-center text-light py-2">Enquiry</p>
+                        </div>
+                        <div class="p-4 br-bottom" id="enquiryBlock">
+                            <div class="mb-3">
+                                <input type="text" class="form-control" id="" placeholder="Name">
+                            </div>
+                            <div class="mb-3">
+                                <input type="text" class="form-control" id="" placeholder="Phone Number">
+                            </div>
+                            <div class="mb-3">
+                                <input type="text" class="form-control" id="" placeholder="Email Id">
+                            </div>
+                            <div class="mb-3">
+                                <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea"
+                                    rows="5"></textarea>
+
+                            </div>
+                            <button type="button" class="btn main-bg form-control mt-3">Send</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- SUGGESTION -->
+        <div class="my-5">
+            <div class="col-md-12">
                 <div class="row">
-                    <div class="col-md-8">
-                        <P class="line"><span class="ps-4 text-color">ABOUT US</span></P>
-                        <p class="fw-bold fs-1">Offering The Best In Education
-                            To The World.</p>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    <div class="col-md-4 mb-3">
+                        <div>
+                            <P class="line"><span class="ps-4  text-color">SUGGESTION OF COURSES</span></P>
+                            <p class="fw-bold fs-1">The world’s largest
+                                selection of courses</p>
+
+                            <p>Choose from over 100,000 online video courses with
+                                new additions published every month</p>
+                            <button type="button" class="btn main-bg mt-3">View All Coures</button>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-3 br-bottom">
+                        <div class="card bg-light border-0">
+                            <img src="assets/img/home/image1.jpg" class="card-img-top br-top object-fit-cover" alt="..."
+                                height="200">
+                            <div class="card-body">
+                                <p> <i class="far fa-clock p-2"></i>10-15 Weeks</p>
+                                <h5 class="card-title">Competitive Strategy law for all
+                                    students</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up
+                                    the bulk of the card's content.</p>
+                                <div class="d-flex justify-content-between">
+                                    <p>₹3399</p>
+                                    <p>Enroll now</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-3">
+                        <div class="card bg-light border-0">
+                            <img src="assets/img/home/image2.jpg" class="card-img-top br-top object-fit-cover" alt="..."
+                                height="200">
+                            <div class="card-body">
+                                <p> <i class="far fa-clock p-2"></i>10-15 Weeks</p>
+                                <h5 class="card-title">Competitive Strategy law for all
+                                    students</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up
+                                    the bulk of the card's content.</p>
+                                <div class="d-flex justify-content-between">
+                                    <p>₹3399</p>
+                                    <p>Enroll now</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-3">
+                        <div class="card bg-light border-0">
+                            <img src="assets/img/home/image3.jpg" class="card-img-top br-top object-fit-cover" alt="..."
+                                height="200">
+                            <div class="card-body">
+                                <p> <i class="far fa-clock p-2"></i>10-15 Weeks</p>
+                                <h5 class="card-title">Competitive Strategy law for all
+                                    students</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up
+                                    the bulk of the card's content.</p>
+                                <div class="d-flex justify-content-between">
+                                    <p>₹3399</p>
+                                    <p>Enroll now</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-3">
+                        <div class="card bg-light border-0">
+                            <img src="assets/img/home/image4.jpg" class="card-img-top br-top object-fit-cover" alt="..."
+                                height="200">
+                            <div class="card-body">
+                                <p> <i class="far fa-clock p-2"></i>10-15 Weeks</p>
+                                <h5 class="card-title">Competitive Strategy law for all
+                                    students</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up
+                                    the bulk of the card's content.</p>
+                                <div class="d-flex justify-content-between">
+                                    <p>₹3399</p>
+                                    <p>Enroll now</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-3">
+                        <div class="card bg-light border-0 br-bottom">
+                            <img src="assets/img/home/image5.jpg" class="card-img-top br-top object-fit-cover" alt="..."
+                                height="200">
+                            <div class="card-body">
+                                <p> <i class="far fa-clock p-2"></i>10-15 Weeks</p>
+                                <h5 class="card-title">Competitive Strategy law for all
+                                    students</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up
+                                    the bulk of the card's content.</p>
+                                <div class="d-flex justify-content-between">
+                                    <p>₹3399</p>
+                                    <p>Enroll now</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- UPCOMING COURSES -->
+        <div class="col-md-12 mb-3">
+            <div class="text-center">
+                <p class="fs-5 line2 d-block"><span class="ps-4  text-color">UPCOMING COURSES</span></p>
+                <p class="fw-bold fs-1">Some of our upcoming courses</p>
+            </div>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="upcoming-div br-12">
+                        <img class="br-12" src="assets/img/home/image6.jpg" alt="" width="100%">
+                        <div class="upcoming-description px-4">
+                            <p> <i class="far fa-clock p-2"></i>10-15 Weeks</p>
+                            <h5 class="card-title">Competitive Strategy law for all
+                                students</h5>
+                            <p>₹3399</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="upcoming-div br-12">
+                        <img class="br-12" src="assets/img/home/image6.jpg" alt="" width="100%">
+                        <div class="upcoming-description px-4">
+                            <p> <i class="far fa-clock p-2"></i>10-15 Weeks</p>
+                            <h5 class="card-title">Competitive Strategy law for all
+                                students</h5>
+                            <p>₹3399</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="upcoming-div br-12">
+                        <img class="br-12" src="assets/img/home/image6.jpg" alt="" width="100%">
+                        <div class="upcoming-description px-4">
+                            <p> <i class="far fa-clock p-2"></i>10-15 Weeks</p>
+                            <h5 class="card-title">Competitive Strategy law for all
+                                students</h5>
+                            <p>₹3399</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Knowledge forum -->
+        <div class="col-md-12 my-5" id="knowledge">
+            <div class="text-center">
+                <p class="fw-bold fs-1 pt-4">Knowledge forum</p>
+                <p>Learn something new every day. Loaded with Knowledgebase, Forum & more!</p>
+                <button type="button" class="btn main-bg mt-3 px-4 fs-5">Find out</button>
+            </div>
+        </div>
+        <!-- TESTIMONIAL -->
+        <div class="col-md-12 br-12 main-bg">
+            <div class="row">
+                <div class="col-md-5 p-md-5 p-4">
+                    <p class="line"><span class="ps-4">TESTIMONIAL</span></p>
+                    <p class="fs-1 fw-bold">See What Students
+                        Says about Ours
+                        Courses.</p>
+                </div>
+                <div class="col-md-7 my-md-5 ps-md-4">
+                    <div class="border-md-start p-md-4 p-3">
+                        <div class="d-flex">
+                            <img class="br-12" src="assets/img/account/image2.png" alt="" height="100" width="100">
+                            <div class="mt-4">
+                                <p class="mb-0 ps-2">Rajdeep Das</p>
+                                <p class="mb-0 ps-2">MSC students</p>
+                            </div>
+                        </div>
+                        <p class="mt-3 mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                            eiusmod tempor
                             incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
                             exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
-                            dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
-                        <div class="row mt-5">
-                            <div class="col-md-6">
-                                <i class="fas fa-users fs-1"></i>
-                                <p class="fw-bold fs-5">Best Learning Communities</p>
-                                <p>Lorem ipsum dolor sit amet adipisicing
-                                    elit, sed do eiusmod tempor.</p>
-                                <button type="button" class="btn btn-outline-dark mt-3">View More</button>
-                            </div>
-                            <div class="col-md-6">
-                                <i class="fas fa-users fs-1"></i>
-                                <p class="fw-bold fs-5">Learn Courses Online</p>
-                                <p>Lorem ipsum dolor sit amet adipisicing
-                                    elit, sed do eiusmod tempor.</p>
-                                <button type="button" class="btn btn-outline-dark mt-3">View More</button>
-                            </div>
-                        </div>
-
-                    </div>
-                    <div class="col-md-4 pt-5">
-                        <div class="shadow br-bottom">
-                            <div class="main-bg br-top">
-                                <p class="fw-bold fs-2 text-center text-light py-2">Enquiry</p>
-                            </div>
-                            <div class="p-4 br-bottom" id="enquiryBlock">
-                                <div class="mb-3">
-                                    <input type="text" class="form-control" id="" placeholder="Name">
-                                </div>
-                                <div class="mb-3">
-                                    <input type="text" class="form-control" id="" placeholder="Phone Number">
-                                </div>
-                                <div class="mb-3">
-                                    <input type="text" class="form-control" id="" placeholder="Email Id">
-                                </div>
-                                <div class="mb-3">
-                                    <textarea class="form-control" placeholder="Leave a comment here"
-                                        id="floatingTextarea" rows="5"></textarea>
-
-                                </div>
-                                <button type="button" class="btn main-bg form-control mt-3">Send</button>
-                            </div>
-                        </div>
+                            dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+                            mollit anim id est laborum</p>
                     </div>
                 </div>
             </div>
-
-            <!-- SUGGESTION -->
-            <div class="my-5">
-                <div class="col-md-12">
-                    <div class="row">
-                        <div class="col-md-4 mb-3">
-                            <div>
-                                <P class="line"><span class="ps-4  text-color">SUGGESTION OF COURSES</span></P>
-                                <p class="fw-bold fs-1">The world’s largest
-                                    selection of courses</p>
-
-                                <p>Choose from over 100,000 online video courses with
-                                    new additions published every month</p>
-                                <button type="button" class="btn main-bg mt-3">View All Coures</button>
-                            </div>
-                        </div>
-                        <div class="col-md-4 mb-3 br-bottom">
-                            <div class="card bg-light border-0">
-                                <img src="assets/img/home/image1.jpg" class="card-img-top br-top object-fit-cover"
-                                    alt="..." height="200">
-                                <div class="card-body">
-                                    <p> <i class="far fa-clock p-2"></i>10-15 Weeks</p>
-                                    <h5 class="card-title">Competitive Strategy law for all
-                                        students</h5>
-                                    <p class="card-text">Some quick example text to build on the card title and make up
-                                        the bulk of the card's content.</p>
-                                    <div class="d-flex justify-content-between">
-                                        <p>₹3399</p>
-                                        <p>Enroll now</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-4 mb-3">
-                            <div class="card bg-light border-0">
-                                <img src="assets/img/home/image2.jpg" class="card-img-top br-top object-fit-cover"
-                                    alt="..." height="200">
-                                <div class="card-body">
-                                    <p> <i class="far fa-clock p-2"></i>10-15 Weeks</p>
-                                    <h5 class="card-title">Competitive Strategy law for all
-                                        students</h5>
-                                    <p class="card-text">Some quick example text to build on the card title and make up
-                                        the bulk of the card's content.</p>
-                                    <div class="d-flex justify-content-between">
-                                        <p>₹3399</p>
-                                        <p>Enroll now</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-4 mb-3">
-                            <div class="card bg-light border-0">
-                                <img src="assets/img/home/image3.jpg" class="card-img-top br-top object-fit-cover"
-                                    alt="..." height="200">
-                                <div class="card-body">
-                                    <p> <i class="far fa-clock p-2"></i>10-15 Weeks</p>
-                                    <h5 class="card-title">Competitive Strategy law for all
-                                        students</h5>
-                                    <p class="card-text">Some quick example text to build on the card title and make up
-                                        the bulk of the card's content.</p>
-                                    <div class="d-flex justify-content-between">
-                                        <p>₹3399</p>
-                                        <p>Enroll now</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-4 mb-3">
-                            <div class="card bg-light border-0">
-                                <img src="assets/img/home/image4.jpg" class="card-img-top br-top object-fit-cover"
-                                    alt="..." height="200">
-                                <div class="card-body">
-                                    <p> <i class="far fa-clock p-2"></i>10-15 Weeks</p>
-                                    <h5 class="card-title">Competitive Strategy law for all
-                                        students</h5>
-                                    <p class="card-text">Some quick example text to build on the card title and make up
-                                        the bulk of the card's content.</p>
-                                    <div class="d-flex justify-content-between">
-                                        <p>₹3399</p>
-                                        <p>Enroll now</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-4 mb-3">
-                            <div class="card bg-light border-0 br-bottom">
-                                <img src="assets/img/home/image5.jpg" class="card-img-top br-top object-fit-cover"
-                                    alt="..." height="200">
-                                <div class="card-body">
-                                    <p> <i class="far fa-clock p-2"></i>10-15 Weeks</p>
-                                    <h5 class="card-title">Competitive Strategy law for all
-                                        students</h5>
-                                    <p class="card-text">Some quick example text to build on the card title and make up
-                                        the bulk of the card's content.</p>
-                                    <div class="d-flex justify-content-between">
-                                        <p>₹3399</p>
-                                        <p>Enroll now</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- UPCOMING COURSES -->
-            <div class="col-md-12 mb-3">
-                <div class="text-center">
-                    <p class="fs-5 line2 d-block"><span class="ps-4  text-color">UPCOMING COURSES</span></p>
-                    <p class="fw-bold fs-1">Some of our upcoming courses</p>
-                </div>
-                <div class="row">
-                    <div class="col-md-4">
-                        <div class="upcoming-div br-12">
-                            <img class="br-12" src="assets/img/home/image6.jpg" alt="" width="100%">
-                            <div class="upcoming-description px-4">
-                                <p> <i class="far fa-clock p-2"></i>10-15 Weeks</p>
-                                <h5 class="card-title">Competitive Strategy law for all
-                                    students</h5>
-                                <p>₹3399</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="upcoming-div br-12">
-                            <img class="br-12" src="assets/img/home/image6.jpg" alt="" width="100%">
-                            <div class="upcoming-description px-4">
-                                <p> <i class="far fa-clock p-2"></i>10-15 Weeks</p>
-                                <h5 class="card-title">Competitive Strategy law for all
-                                    students</h5>
-                                <p>₹3399</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="upcoming-div br-12">
-                            <img class="br-12" src="assets/img/home/image6.jpg" alt="" width="100%">
-                            <div class="upcoming-description px-4">
-                                <p> <i class="far fa-clock p-2"></i>10-15 Weeks</p>
-                                <h5 class="card-title">Competitive Strategy law for all
-                                    students</h5>
-                                <p>₹3399</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- Knowledge forum -->
-            <div class="col-md-12 my-5" id="knowledge">
-                <div class="text-center">
-                    <p class="fw-bold fs-1 pt-4">Knowledge forum</p>
-                    <p>Learn something new every day. Loaded with Knowledgebase, Forum & more!</p>
-                    <button type="button" class="btn main-bg mt-3 px-4 fs-5">Find out</button>
-                </div>
-            </div>
-            <!-- TESTIMONIAL -->
-            <div class="col-md-12 br-12 main-bg">
-                <div class="row">
-                    <div class="col-md-5 p-5">
-                        <p class="line"><span class="ps-4">TESTIMONIAL</span></p>
-                        <p class="fs-1 fw-bold">See What Students
-                            Says about Ours
-                            Courses.</p>
-                    </div>
-                    <div class="col-md-7 my-5 ps-4">
-                        <div class="border-start p-4">
-                            <div class="d-flex">
-                                <img class="br-12" src="assets/img/account/image2.png" alt="" height="100" width="100">
-                                <div class="mt-4">
-                                    <p class="mb-0 ps-2">Rajdeep Das</p>
-                                    <p class="mb-0 ps-2">MSC students</p>
-                                </div>
-                            </div>
-                            <p class="mt-3 mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                                eiusmod tempor
-                                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-                                exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
-                                dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-                                Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-                                mollit anim id est laborum</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- BLOGS -->
-            <div>
-                <div class="d-flex justify-content-between align-items-end mt-5">
-                    <div class="col-md-6">
-                        <P class="line mb-0"><span class="ps-4  text-color">BLOGS</span></P>
-                        <p class="fw-bold fs-1">Our Latest Blogs</p>
-                        <p>Aliquam a augue suscipit, luctus neque purus ipsum neque dolor primis
-                            libero tempus, blandit posuere and ligula varius magna a porta</p>
-                    </div>
-                    <div class="pb-3">
-                        <button type="button" class="btn btn-outline-dark">Read More Stories</button>
-                    </div>
-                </div>
-                <div class="row mt-5">
-                    <div class="col-md-4">
-                        <p class="mb-0"><i class="far fa-calendar p-2"></i>April 20, 2021</p>
-                        <p class="fw-bold fs-4">Integer congue magna at pretium
-                            purus pretium</p>
-                        <p>Lorem ipsum dolor sit amet, consectetur sed do
-                            eiusmod tempor incididunt ut labore et dolore
-                            magna aliqua. Ut enim ad minim veniam, quis
-                            nostrud exercitation ullamco laboris nisi ut aliquip
-                            ex ea commodo consequat.</p>
-                    </div>
-                    <div class="col-md-4 border-start ps-5">
-                        <p class="mb-0"><i class="far fa-calendar p-2"></i>April 20, 2021</p>
-                        <p class="fw-bold fs-4">Integer congue magna at pretium
-                            purus pretium</p>
-                        <p>Lorem ipsum dolor sit amet, consectetur sed do
-                            eiusmod tempor incididunt ut labore et dolore
-                            magna aliqua. Ut enim ad minim veniam, quis
-                            nostrud exercitation ullamco laboris nisi ut aliquip
-                            ex ea commodo consequat.</p>
-                    </div>
-                    <div class="col-md-4 border-start ps-5">
-                        <p class="mb-0"><i class="far fa-calendar p-2"></i>April 20, 2021</p>
-                        <p class="fw-bold fs-4">Integer congue magna at pretium
-                            purus pretium</p>
-                        <p>Lorem ipsum dolor sit amet, consectetur sed do
-                            eiusmod tempor incididunt ut labore et dolore
-                            magna aliqua. Ut enim ad minim veniam, quis
-                            nostrud exercitation ullamco laboris nisi ut aliquip
-                            ex ea commodo consequat.</p>
-                    </div>
-                </div>
-            </div>
-            <!-- We’re Professionals For
-                        Grow Your Skill! -->
-            <div class="mt-5 d-flex align-items-center" id="bgImg">
+        </div>
+        <!-- BLOGS -->
+        <div>
+            <div class="d-md-flex justify-content-between align-items-end mt-5">
                 <div class="col-md-6">
-                    <p class="fw-bold fs-1 ms-5  text-color">We’re Professionals For
-                        Grow Your Skill!</p>
-                    <p class="ms-5 fw-bold">Start Online Learning Today</p>
+                    <P class="line mb-0"><span class="ps-4  text-color">BLOGS</span></P>
+                    <p class="fw-bold fs-1">Our Latest Blogs</p>
+                    <p>Aliquam a augue suscipit, luctus neque purus ipsum neque dolor primis
+                        libero tempus, blandit posuere and ligula varius magna a porta</p>
+                </div>
+                <div class="pb-3">
+                    <button type="button" class="btn btn-outline-dark">Read More Stories</button>
                 </div>
             </div>
-            <!-- Footer -->
-            <div class="mt-5 d-flex justify-content-between">
-                <img src="assets/img/home/logo.png" alt="">
-                <div>
-                    <i class="fab fa-facebook-f p-2 fs-5"></i>
-                    <i class="fab fa-linkedin-in p-2 fs-5"></i>
-                    <i class="fab fa-twitter p-2 fs-5"></i>
-                    <i class="fab fa-instagram-square p-2 fs-5"></i>
+            <div class="row mt-5">
+                <div class="col-md-4">
+                    <p class="mb-0"><i class="far fa-calendar p-2"></i>April 20, 2021</p>
+                    <p class="fw-bold fs-4">Integer congue magna at pretium
+                        purus pretium</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur sed do
+                        eiusmod tempor incididunt ut labore et dolore
+                        magna aliqua. Ut enim ad minim veniam, quis
+                        nostrud exercitation ullamco laboris nisi ut aliquip
+                        ex ea commodo consequat.</p>
+                </div>
+                <div class="col-md-4 border-start ps-md-5">
+                    <p class="mb-0"><i class="far fa-calendar p-2"></i>April 20, 2021</p>
+                    <p class="fw-bold fs-4">Integer congue magna at pretium
+                        purus pretium</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur sed do
+                        eiusmod tempor incididunt ut labore et dolore
+                        magna aliqua. Ut enim ad minim veniam, quis
+                        nostrud exercitation ullamco laboris nisi ut aliquip
+                        ex ea commodo consequat.</p>
+                </div>
+                <div class="col-md-4 border-start ps-md-5">
+                    <p class="mb-0"><i class="far fa-calendar p-2"></i>April 20, 2021</p>
+                    <p class="fw-bold fs-4">Integer congue magna at pretium
+                        purus pretium</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur sed do
+                        eiusmod tempor incididunt ut labore et dolore
+                        magna aliqua. Ut enim ad minim veniam, quis
+                        nostrud exercitation ullamco laboris nisi ut aliquip
+                        ex ea commodo consequat.</p>
                 </div>
             </div>
-            <hr>
+        </div>
+        <!-- We’re Professionals For
+                        Grow Your Skill! -->
+        <div class="mt-5 d-flex align-items-center" id="bgImg">
+            <div class="col-md-6">
+                <p class="fw-bold fs-1 ms-5  text-color">We’re Professionals For
+                    Grow Your Skill!</p>
+                <p class="ms-5 fw-bold">Start Online Learning Today</p>
+            </div>
+        </div>
+        <!-- Footer -->
+        <div class="mt-5 d-flex justify-content-between">
+            <img src="assets/img/home/logo.png" alt="" width="150">
             <div>
-                <div class="row">
-                    <div class="col-md-4">
-                        <p class="fw-bold fs-5">Contact us</p>
-                        <p class="mb-0">Latasil, Uzan Bazar, Guwahati,</p>
-                        <p> Assam 781001</p>
-                        <p>example@gmail.com</p>
-                    </div>
-                    <div class="col-md-4">
-                        <p class="fw-bold fs-5">Quick Links</p>
-                        <div class="d-flex">
-                            <div class="me-5">
-                                <p class="mb-1">Home</p>
-                                <p class="mb-1">About Us</p>
-                                <p class="mb-1">Courses</p>
-                            </div>
-                            <div>
-                                <p class="mb-1">Blogs</p>
-                                <p class="mb-1">Knowledge Forum</p>
-                                <p class="mb-1">Contact Us</p>
-                            </div>
+                <i class="fab fa-facebook-f p-2 fs-5"></i>
+                <i class="fab fa-linkedin-in p-2 fs-5"></i>
+                <i class="fab fa-twitter p-2 fs-5"></i>
+                <i class="fab fa-instagram-square p-2 fs-5"></i>
+            </div>
+        </div>
+        <hr>
+        <div>
+            <div class="row">
+                <div class="col-md-4">
+                    <p class="fw-bold fs-5">Contact us</p>
+                    <p class="mb-0">Latasil, Uzan Bazar, Guwahati,</p>
+                    <p> Assam 781001</p>
+                    <p>example@gmail.com</p>
+                </div>
+                <div class="col-md-4">
+                    <p class="fw-bold fs-5">Quick Links</p>
+                    <div class="d-flex">
+                        <div class="me-5">
+                            <p class="mb-1">Home</p>
+                            <p class="mb-1">About Us</p>
+                            <p class="mb-1">Courses</p>
+                        </div>
+                        <div>
+                            <p class="mb-1">Blogs</p>
+                            <p class="mb-1">Knowledge Forum</p>
+                            <p class="mb-1">Contact Us</p>
                         </div>
                     </div>
-                    <div class="col-md-4">
-                        <div class="d-flex justify-content-between">
-                            <img src="assets/img/gallery/image1.jpg" alt="" width="100" height="100">
-                            <img src="assets/img/gallery/image2.jpg" alt="" width="100" height="100">
-                            <img src="assets/img/gallery/image3.jpg" alt="" width="100" height="100">
-                            <img src="assets/img/gallery/image4.jpg" alt="" width="100" height="100">
-                        </div>
-                    </div>
-                    <hr>
-                    <div>
-                        <div class="d-flex justify-content-between">
-                            <ul class="list-inline">
-                                <li class="list-inline-item">FAQ</li>
-                                <li class="list-inline-item"><i class="fas fa-circle"></i></li>
-                                <li class="list-inline-item">Privacy Policy</li>
-                                <li class="list-inline-item"><i class="fas fa-circle"></i></li>
-                                <li class="list-inline-item">Terms and Conditions.</li>
-                            </ul>
-                            <div>
-                                <p>© 2021 Abhith Sikhsha, All Rights Reserved</p>
+                </div>
+                <div class="col-md-4">
+                    <div class="d-flex justify-content-between">
+                        <div class="row g-0">
+                            <div class="col-3">
+                                <img src="assets/img/gallery/image1.jpg" alt="" width="100%" height="100">
                             </div>
+                            <div class="col-3">
+                                <img src="assets/img/gallery/image2.jpg" alt="" width="100%" height="100">
+                            </div>
+                            <div class="col-3">
+                                <img src="assets/img/gallery/image3.jpg" alt="" width="100%" height="100">
+                            </div>
+                            <div class="col-3">
+                                <img src="assets/img/gallery/image4.jpg" alt="" width="100%" height="100">
+                            </div>
+                        </div>       
+                    </div>
+                </div>
+                <hr>
+                <div>
+                    <div class="d-md-flex justify-content-between">
+                        <ul class="list-inline">
+                            <li class="list-inline-item">FAQ</li>
+                            <li class="list-inline-item"><i class="fas fa-circle"></i></li>
+                            <li class="list-inline-item">Privacy Policy</li>
+                            <li class="list-inline-item"><i class="fas fa-circle"></i></li>
+                            <li class="list-inline-item">Terms and Conditions.</li>
+                        </ul>
+                        <div>
+                            <p id="copyright-text">© 2021 Abhith Sikhsha, All Rights Reserved</p>
                         </div>
                     </div>
                 </div>
