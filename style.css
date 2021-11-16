@@ -119,3 +119,29 @@ html{
 #who-are-we #third-div{
     border-radius: 0 12px 12px 0;
 }
+/* courses */
+#bgimg3{
+    background: url(assets/img/course/banner.png);
+    background-size: cover;
+    border-radius: 12px;
+    width: 100%;
+    background-repeat: no-repeat;
+}
+#searchForm{
+    position: relative;
+    top: 12px;
+    height: 40px;
+}
+#searchIcon{
+    position: absolute;
+    top: 12px;
+    left: 15px;
+}
+/* blog */
+#bgimg4{
+    background: url(assets/img/course/banner.png);
+    background-size: cover;
+    border-radius: 12px;
+    width: 100%;
+    background-repeat: no-repeat;
+}
