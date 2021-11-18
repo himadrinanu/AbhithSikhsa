@@ -145,3 +145,23 @@ html{
     width: 100%;
     background-repeat: no-repeat;
 }
+/* profile */
+.profile-main-div{
+    position: relative;
+    border: 1px solid #e7e7e7;
+    border-radius: 12px 12px 0 0;
+}
+.profile-img{
+    position: absolute;
+    top: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+    border: 5px solid #fff;
+    background: #fff;
+}
+.left-tabs .list-group-item{
+    border: none;
+    border-radius: 0;
+    border-top: 1px solid #e7e7e7;
+    cursor: pointer;
+}
