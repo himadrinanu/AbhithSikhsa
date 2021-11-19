@@ -10,6 +10,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
         integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -32,7 +33,7 @@
                         <i class="fab fa-instagram text-light"></i>
                     </div>
                 </div>
-                <div class="col-md-6 d-flex justify-content-end">
+                <div class="col-md-6 d-flex justify-content-md-end">
                     <div class="dropdown d-flex me-5">
                         <i class="far fa-user text-light mt-1 me-2"></i>
                         <p type="text" class="dropdown-toggle text-light mb-0" data-bs-toggle="dropdown"
@@ -47,7 +48,7 @@
                     </div>
                     <div class="d-flex">
                         <i class="fas fa-shopping-cart text-light me-2 mt-1"></i>
-                        <p class="text-light mb-0">Cart</p>
+                        <a href="cart.html" class="text-light mb-0 text-decoration-none">Cart</a>
                     </div>
                 </div>
             </div>
@@ -57,7 +58,7 @@
         <!-- nav -->
         <nav class="navbar navbar-expand-lg navbar-light">
             <div class="container-fluid">
-                <a class="navbar-brand" href="#"><img src="assets/img/home/logo.png" alt=""></a>
+                <a class="navbar-brand" href="#"><img src="assets/img/home/logo.png" alt="" width="200"></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Toggle navigation">
@@ -90,13 +91,13 @@
         </nav>
         <!-- Courses / Chemistry -->
         <div class="row g-0">
-            <div class="col-md-6 bg-dark text-light p-md-5" style="border-radius: 12px 0 0 12px;">
+            <div class="col-md-6 bg-dark text-light p-md-5 course-banner">
                 <p>Courses / Chemistry</p>
                 <p class="fw-bold fs-1">Chemistry</p>
                 <p class="fw-bold">Basic understanding of chemistry and maths.</p>
                 <a href="mcq.html" class="btn btn-outline-secondary shadow fw-bold">MCQ Test</a>
             </div>
-            <div class="col-md-6">
+            <div class="col-md-6 d-none d-md-block">
                 <img src="assets/img/course/image2.png" alt="" height="400" width="100%"
                     style="border-radius: 0 12px 12px 0; object-fit: cover;">
             </div>
@@ -144,105 +145,105 @@
             </div>
             <div class="col-md-6 border-start pt-5">
                 <div class="d-flex justify-content-between">
-                    <div class="form-check fs-5">
+                    <div class="form-check">
                         <input class="form-check-input" type="checkbox" value="" id="fullCourse">
                         <label class="form-check-label fw-bold" for="flexCheckChecked">
                             Full Course
                         </label>
                     </div>
-                    <p class="fw-bold fs-5">₹5000</p>
+                    <p class="fw-bold">₹5000</p>
                 </div>
                 <div>
-                    <p class="fw-bold fs-5">Select Lesson</p>
+                    <p class="fw-bold">Select Lesson</p>
                     <div class="d-flex justify-content-between">
-                        <div class="form-check fs-5">
+                        <div class="form-check">
                             <input class="form-check-input courses-checkbox" type="checkbox" value="">
                             <label class="form-check-label" for="flexCheckChecked">
                                 Aldehydes, Ketones and Carboxylic Acids
                             </label>
                         </div>
-                        <p class="fw-bold fs-5">₹5000</p>
+                        <p class="fw-bold">₹5000</p>
                     </div>
                     <div class="d-flex justify-content-between">
-                        <div class="form-check fs-5">
+                        <div class="form-check">
                             <input class="form-check-input courses-checkbox" type="checkbox" value="">
                             <label class="form-check-label" for="flexCheckChecked">
                                 Alcohols, Phenols and Ethers
                             </label>
                         </div>
-                        <p class="fw-bold fs-5">₹5000</p>
+                        <p class="fw-bold">₹5000</p>
                     </div>
                     <div class="d-flex justify-content-between">
-                        <div class="form-check fs-5">
+                        <div class="form-check">
                             <input class="form-check-input courses-checkbox" type="checkbox" value="">
                             <label class="form-check-label" for="flexCheckChecked">
                                 Haloalkanes and Haloarenes
                             </label>
                         </div>
-                        <p class="fw-bold fs-5">₹5000</p>
+                        <p class="fw-bold">₹5000</p>
                     </div>
                     <div class="d-flex justify-content-between">
-                        <div class="form-check fs-5">
+                        <div class="form-check">
                             <input class="form-check-input courses-checkbox" type="checkbox" value="">
                             <label class="form-check-label" for="flexCheckChecked">
                                 Biomolecules
                             </label>
                         </div>
-                        <p class="fw-bold fs-5">₹5000</p>
+                        <p class="fw-bold">₹5000</p>
                     </div>
                     <div class="d-flex justify-content-between">
-                        <div class="form-check fs-5">
+                        <div class="form-check">
                             <input class="form-check-input courses-checkbox" type="checkbox" value="">
                             <label class="form-check-label" for="flexCheckChecked">
                                 Polymers
                             </label>
                         </div>
-                        <p class="fw-bold fs-5">₹5000</p>
+                        <p class="fw-bold">₹5000</p>
                     </div>
                     <div class="d-flex justify-content-between">
-                        <div class="form-check fs-5">
+                        <div class="form-check">
                             <input class="form-check-input courses-checkbox" type="checkbox" value="">
                             <label class="form-check-label" for="flexCheckChecked">
                                 Chemistry in Everyday Life
                             </label>
                         </div>
-                        <p class="fw-bold fs-5">₹5000</p>
+                        <p class="fw-bold">₹5000</p>
                     </div>
                     <div class="d-flex justify-content-between">
-                        <div class="form-check fs-5">
+                        <div class="form-check">
                             <input class="form-check-input courses-checkbox" type="checkbox" value="">
                             <label class="form-check-label" for="flexCheckChecked">
                                 d and f- Block Elements
                             </label>
                         </div>
-                        <p class="fw-bold fs-5">₹5000</p>
+                        <p class="fw-bold">₹5000</p>
                     </div>
                     <div class="d-flex justify-content-between">
-                        <div class="form-check fs-5">
+                        <div class="form-check">
                             <input class="form-check-input courses-checkbox" type="checkbox" value="">
                             <label class="form-check-label" for="flexCheckChecked">
                                 Electrochemistry
                             </label>
                         </div>
-                        <p class="fw-bold fs-5">₹5000</p>
+                        <p class="fw-bold">₹5000</p>
                     </div>
                     <div class="d-flex justify-content-between">
-                        <div class="form-check fs-5">
+                        <div class="form-check">
                             <input class="form-check-input courses-checkbox" type="checkbox" value="">
                             <label class="form-check-label" for="flexCheckChecked">
                                 Chemical Kinetics
                             </label>
                         </div>
-                        <p class="fw-bold fs-5">₹5000</p>
+                        <p class="fw-bold">₹5000</p>
                     </div>
                     <div class="d-flex justify-content-between">
-                        <div class="form-check fs-5">
+                        <div class="form-check">
                             <input class="form-check-input courses-checkbox" type="checkbox" value="">
                             <label class="form-check-label" for="flexCheckChecked">
                                 Surface Chemistry
                             </label>
                         </div>
-                        <p class="fw-bold fs-5">₹5000</p>
+                        <p class="fw-bold">₹5000</p>
                     </div>
                     <hr>
                 </div>

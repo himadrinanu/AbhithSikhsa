@@ -137,6 +137,9 @@ html{
     top: 12px;
     left: 15px;
 }
+.course-banner{
+    border-radius: 12px 0 0 12px;
+}
 /* blog */
 #bgimg4{
     background: url(assets/img/course/banner.png);
@@ -164,4 +167,11 @@ html{
     border-radius: 0;
     border-top: 1px solid #e7e7e7;
     cursor: pointer;
+}
+/* account (purchases) */
+.text-color2{
+    color: rgb(13, 218, 40);
+}
+.text-14{
+    font-size: 14px;
 }

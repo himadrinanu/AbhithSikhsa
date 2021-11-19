@@ -5,7 +5,7 @@
         object-fit: cover;
     }    
     
-    #aboutBannerImage{
+    #headerDescImage{
         height: 40vh;
         object-fit: cover;
     }
@@ -30,6 +30,10 @@
 
     #who-are-we #third-div{
         border-radius: 0 0 0 0;
+    }
+    .course-banner{
+        border-radius: 0 0 0 0;
+        padding: 10px;
     }
  }
 
