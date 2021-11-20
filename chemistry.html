@@ -95,7 +95,8 @@
                 <p>Courses / Chemistry</p>
                 <p class="fw-bold fs-1">Chemistry</p>
                 <p class="fw-bold">Basic understanding of chemistry and maths.</p>
-                <a href="mcq.html" class="btn btn-outline-secondary shadow fw-bold">MCQ Test</a>
+                <button class="btn btn-outline-secondary shadow fw-bold" data-bs-toggle="modal"
+                    data-bs-target="#mcqModal">MCQ Test</button>
             </div>
             <div class="col-md-6 d-none d-md-block">
                 <img src="assets/img/course/image2.png" alt="" height="400" width="100%"
@@ -319,6 +320,57 @@
             </div>
         </div>
     </div>
+
+
+
+    <!-- Modal -->
+    <div class="modal fade" id="mcqModal" tabindex="-1" aria-labelledby="mcqModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="p-3">
+                    <div class="d-flex justify-content-between">
+                        <h5 class="modal-title" id="mcqModalLabel">MCQ Test</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="d-flex justify-content-between">
+                        <p class="mb-0">Question 1/15</p>
+                        <p class="mb-0">Time Left: <b>15:00 Mins</b></p>
+                    </div>
+                </div>
+                <hr>
+                <div class="modal-body">
+                    <p class="fw-bold fs-5">1.The main source of chemicals which are used in
+                        industries is</p>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                        <label class="form-check-label" for="flexRadioDefault1">
+                            (A)Coke
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                        <label class="form-check-label" for="flexRadioDefault1">
+                            (B)Peat
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                        <label class="form-check-label" for="flexRadioDefault1">
+                            (C)Coal tar
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                        <label class="form-check-label" for="flexRadioDefault1">
+                            (D)Liquefied Petroleum Gas
+                        </label>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary">Next</button>
+                </div>
+            </div>
+        </div>
     </div>
 
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"
